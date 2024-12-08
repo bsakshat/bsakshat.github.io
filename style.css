@@ -92,15 +92,14 @@ footer {
 
 @media (max-width: 768px) {
     header nav a {
+        max-width: 100%;
         display: block;
         margin: 0.5rem 0;
     }
-    
-    section {
-        padding: 1rem;
-    }
 
-    .project {
-        margin: 1rem auto;
+    section, .project {
+        max-width: 100%;
+        margin: 0;
+        padding: 1rem;
     }
 }
